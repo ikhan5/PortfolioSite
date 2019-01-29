@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat%7CRaleway" rel="stylesheet">
+    <script src="script.js"></script>
+    <title>Imzan Khan's Web Portfolio</title>
+</head>
+
+<body>
+    <div id="banner">
+        <header id="header">
+            <a href="#main" class="hidden">Proceed to main content</a>
+            <div class="page-wrapper">
+                <div class="toggle">
+                    <a href="#" id="burger-menu">
+                        <img src="Images/Burger-Menu.png" alt="Top-navigation button">
+                    </a>
+                </div>
+                <a href="#">
+                    <img class="logo" src="Images/Logo-Name.png" alt="Logo for Imzan Khan's Portfolio">
+                </a>
+                <h1 class="hidden">Imzan Khan Development</h1>
+                <nav id="top-nav" class="toggle-nav">
+                    <a href="#" aria-label="Close Toggle Navigation" class="close">&times;</a>
+                    <h2 class="hidden">Main Navigation</h2>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+
+        <div class="flex-container">
+            <h2 class="hidden">Banner</h2>
+            <div>
+                <div class="banner-title">
+                    <h2>Student.</h2>
+                    <h2>Creator.</h2>
+                    <h2>Web Developer.</h2>
+                </div>
+                <a href="#main" class="discover">Discover</a>
+            </div>
+            <img id="banner-image">
+        </div>
+
+    </div>
+
+    <main id="main">
+        <section id="about">
+            <h2 class="section-title">&#60; About &#62;</h2>
+            <h3 id="about-header">I am <span>Im<span>aginary Tar</span>zan</span></h3>
+            <div class="flex-container">
+                <img src="Images/About_Picture.png" id="about-image" alt="Image of Imzan Khan, the developer of the web page">
+                <div class="about-text">
+                    <p>
+                        My name is Imzan Khan, I was born in Canada, but my parents are from Guyana, South America. I
+                        previously graduated from Humber College with a Electronics Technologist Diploma back in 2015.
+                        Afterwards, I transferred to Lakehead University located in Thunday Bay, ON, where I lived and
+                        went to school for approximately 2 years. At Lakehead I achieved my bachelor’s in electrical
+                        engineering. However, I did not enjoy my time in Engineering, and I did not want a job in
+                        Engineering, as programming was my passion.
+                    </p>
+                    <p>
+                        My first encounter with Web Development came through some online video tutorials about
+                        developing web applications/games. Through Udemy (an online source of video taught programs) I
+                        learnt about basic HTML, CSS, and JavaScript. However, while learning I soon felt myself
+                        getting lost in all the information available online, and soon became discouraged and confused
+                        about the whole occupation. I was eager to jump ahead and try and learn different frameworks,
+                        before mastering the basics of web development. Therefore, I found that I needed some form of
+                        structured learning, where I could have a more organized approach at developing websites;
+                        hence, my enrolment in the Web Development program at Humber.
+                    </p>
+                </div>
+            </div> <!-- end of about flex-container -->
+        </section>
+
+        <section id="work">
+            <h2 class="section-title">&#60; Work &#62;</h2>
+            <div class="flex-container-work">
+                <div class="placeholder">
+                    <div class="makeVisible">
+                        <input type="image" src="Images/BlackJack2.PNG" title="BlackJack Game" alt="Picture of a BlackJack game developed by Imzan Khan"
+                            class="blackJack">
+                        <p class="visit">Click to visit!</p>
+                    </div>
+                    <p class="work-description">BlackJack - JavaScript</p>
+                </div>
+                <div class="placeholder">
+                    <div class="makeVisible">
+                        <input type="image" src="Images/placeholder3.png" title="Application 2 name" alt="Placeholder for upcoming applications made by Imzan Khan">
+                        <p class="visit">Click to visit!</p>
+                    </div>
+
+                    <p class="work-description">Application 2 - Language</p>
+                </div>
+                <div class="placeholder">
+                    <div class="makeVisible">
+                        <input type="image" src="Images/placeholder3.png" title="Application 3 name" alt="Placeholder for upcoming applications made by Imzan Khan">
+                        <p class="visit">Click to visit!</p>
+                    </div>
+                    <p class="work-description">Application 3 - Language</p>
+                </div>
+            </div> <!-- end of about flex-work-container -->
+        </section>
+
+        <section id="contact">
+            <h2 class="section-title">&#60; Contact &#62;</h2>
+            <div class="flex-container-contact">
+                <form method="post" action="#">
+                    <ul class="flex-container-contact">
+                        <li class="form-input">
+                            <label for="name">Name:</label>
+                            <input id="name" name="name" type="text" placeholder="Enter your name">
+                        </li>
+                        <li class="form-input">
+                            <label for="email">Email:</label>
+                            <input id="email" name="email" type="text" placeholder="Enter your email">
+                        </li>
+                        <li class="form-input">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" placeholder="Write your message here..."></textarea>
+                        </li>
+                    </ul>
+                    <div>
+                        <button type="submit" id="submit" name="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="flex-container-footer">
+            <a href="#" title="Go back to the top of the page">
+                <img src="Images/back-to-top.png" title="Click here to back to the top of the page" alt="Button to go back to the top of the page"
+                    class="back-to-top">
+            </a>
+            <div id="footer-nav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <p id="copyright"> &copy; Copyright Imzan Khan, 2018.</p>
+    </footer>
+</body>
+
+</html>
